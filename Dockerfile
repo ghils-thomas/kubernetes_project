@@ -1,4 +1,4 @@
-FROM  centos:latest
+FROM  ubuntu:latest
 LABEL maintainer = alliedcmc@gmail.com
 RUN yum install -y httpd \
  zip\
